@@ -1,0 +1,157 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./images/bg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+.formcontainer1 {
+    width: 35%;
+    margin-left: 40px;
+    height: 400px;
+    float: left;
+    margin-top: 30px;
+    background-color: rgb(170, 228, 238);
+}
+
+.formcontainer2 {
+    width: 35%;
+    margin-right: 40px;
+    height: 400px;
+    float: right;
+    margin-top: 30px;
+    background-color: lightpink;
+}
+
+.clearfix {
+    clear: both;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 28px;
+    font-weight: 200;
+}
+
+.input-container {
+    width: 100%;
+}
+
+.icon1 {
+    padding: 14px;
+    background: white;
+    color: lightskyblue;
+    min-width: 50px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    margin-left: 0px;
+}
+
+.icon2 {
+    padding: 12px;
+    background: white;
+    color: lightpink;
+    min-width: 50px;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+input {
+    display: inline-block;
+    padding: 14px;
+    text-align: left;
+    width: 70%;
+    margin: 0px 0px 12px 40px;
+    border: none;
+    border-radius: 4px;
+}
+
+input:focus {
+    border: 1px solid white;
+}
+
+input::placeholder {
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+#div-btn {
+    width: 100%;
+    margin: 30px 60px;
+}
+
+#div-btn button {
+    padding: 12px 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 14px 14px;
+    border-radius: 4px;
+    border: none;
+    background-color: white;
+    font-size: 16px;
+    cursor: pointer;
+    width: auto;
+}
+
+#div-btn button:hover {
+    background-color: rgb(248, 157, 172);
+    color: white;
+    opacity: 0.8;
+}
+
+#btnregister {
+    width: 80%;
+    padding: 12px 38px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 14px 44px;
+    border-radius: 4px;
+    border: none;
+    background-color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#btnregister:hover {
+    background-color: rgb(22, 164, 189);
+    color: white;
+    opacity: 0.8;
+}
+
+
+/*Footer*/
+
+#footer {
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+
+#footer p {
+    text-align: center;
+    font-size: 12px;
+    color: #333;
+}
